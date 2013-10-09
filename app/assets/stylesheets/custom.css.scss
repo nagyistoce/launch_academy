@@ -1,0 +1,46 @@
+html, body {
+  background-color: #5A8CFE;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+a img {
+  border: none;
+}
+
+a {
+  color: #0000FF;
+}
+
+header {
+	margin-left:-10px;
+	margin-top:-8px;
+	width:102%;
+	height:50px;
+	background-color:#191975;
+}
+
+footer {
+	margin-left:0px;
+	width:10%;
+	height:100px;
+	background-color:grey;
+}
+
+ul.nav {
+	margin-top:20px;
+	margin-right:10px;
+	list-style:none;
+	display:inline;
+	float:right;
+	background-color:#191975;
+}
+
+li.nav {
+	display:inline;
+	margin-right:10px;
+}
+
+div.container {
+	margin-left:15%;
+}

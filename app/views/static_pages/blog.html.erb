@@ -1,0 +1,19 @@
+<h1 class="blog_title">Launch Academy Blog</h1>
+
+<div ng-controller="PostCtrl">
+	<form ng-submit="addEntry()">
+		<input type="text" ng-model="newEntry.name">
+		<input type="submit" value='Add'>
+	</form>
+
+	{{newEntry.name}}
+
+<ul class="posts">
+	<li ng-repeat="entry in entries" class="posts">
+		{{entry.name}}
+		<span ng-show="entry.winner" ng-class="{highlight: entry == lastWinner}" class="winner">WINNER</span>
+	</li>
+</ul>
+
+	<button ng-click="drawWinner()">Draw Winner</button>
+</div>
